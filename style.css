@@ -5,21 +5,21 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
-}
-
-/* Chessboard Styling */
-#board {
+  }
+  
+  /* Chessboard Container */
+  #board {
     margin: auto;
     border: 3px solid #333;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-/* Buttons */
-.controls {
+  }
+  
+  /* Controls */
+  .controls {
     margin-top: 15px;
-}
-
-button {
+  }
+  
+  button {
     margin: 5px;
     padding: 10px 15px;
     font-size: 16px;
@@ -29,14 +29,14 @@ button {
     color: white;
     border-radius: 5px;
     transition: background 0.2s ease-in-out;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: #555;
-}
-
-/* Move History Box */
-#moveHistory {
+  }
+  
+  /* Move History */
+  #moveHistory {
     margin-top: 15px;
     font-size: 14px;
     white-space: pre-wrap;
@@ -46,24 +46,10 @@ button:hover {
     display: inline-block;
     min-width: 300px;
     text-align: left;
-}
-
-/* Highlight Legal Moves */
-.highlight {
+  }
+  
+  /* Highlight Legal Moves (for when dragging pieces) */
+  .highlight {
     background-color: rgba(255, 255, 0, 0.5) !important;
-}
-
-/* Custom Chess Pieces */
-.custom-board .square-55d63 {
-    background-size: cover;
-}
-
-/* Light & Dark Squares */
-.white-square-1e1d7 {
-    background-color: #f0d9b5 !important;
-}
-
-.black-square-3c85d {
-    background-color: #b58863 !important;
-}
-
+  }
+  
