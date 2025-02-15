@@ -15,7 +15,14 @@
 </head>
 <body>
   <h1>Chess Game</h1>
-  <div id="board" style="width: 400px"></div>
+  <div id="board" style="width: 1000px, height: 1000px"></div>
+  <canvas id="boardCanvas" width="1000px" height="1000px"></canvas>
+  <script>
+  var c = document.getElementById("boardCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("board.svg");
+ctx.drawImage(img, 200, 100);
+</script>
   <div class="controls">
     <button id="resetBtn">Reset</button>
     <button id="undoBtn">Undo Move</button>
